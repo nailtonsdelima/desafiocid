@@ -9,9 +9,10 @@ public class Order {
 	public Order() {
 	}
 	
-	public Order(String code, double basic) {
+	public Order(String code, double basic, double discount) {
 		this.code = code;
 		this.basic = basic;
+		this.discount = discount;
 	}
 	
 	public String getCode() {

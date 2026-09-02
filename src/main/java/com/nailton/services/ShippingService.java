@@ -9,7 +9,7 @@ public class ShippingService {
 			if (amount < 100.0) {
 	            return 20.0;
 	        }
-	        else if (amount <= 200.0) {
+	        else if (amount < 200.0) {
 	            return 12.0;
 	        }
 	        else {
